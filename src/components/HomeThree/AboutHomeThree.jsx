@@ -1,8 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-import AboutImage1 from '../../assets/images/resource/about-9.jpeg';
-import AboutImage2 from '../../assets/images/resource/about-10.jpg';
+import AboutImage1 from '../../assets/images/resource/client9.jpg';
+import AboutImage2 from '../../assets/images/resource/client8.jpg';
 import AboutThumb from '../../assets/images/resource/thumb-1.jpg';
 function AboutHomeThree({ className }) {
     return (
@@ -13,20 +13,10 @@ function AboutHomeThree({ className }) {
                         <div className="content-column col-xl-6 col-lg-7 col-md-12 col-sm-12 order-2 wow fadeInRight" data-wow-delay="600ms">
                             <div className="inner-column">
                                 <div className="sec-title">
-                                    <span className="sub-title">About Our Company</span>
-                                    <h2 className='fs-1'>IT INFRASTRUCTURES | SECURITY SYSTEMS | ELV SOLUTIONS</h2>
+                                    <span className="sub-title">Lorem, ipsum dolor.</span>
+                                    <h2 className='fs-1'>Lorem ipsum, dolor sit | amet consectetur adipisicing  | elit. Mollitia, officiis.</h2>
                                     <div className="text">
-                                        We are Coral Plus Security, A name in IT infrastructures, Security Systems SIRA approvals,
-                                        and ELV Solution providers in the U.A.E. Founded by a team of talented and
-                                        achievement-oriented professionals. We strive to balance leading-edge technology with
-                                        highly skilled resources to deliver cost-effective, reliable, and secure solutions that meet
-                                        or fulfill customer's needs. Over the years, we have built up a network of over-satisfied
-                                        customers in the region. The company is the best in supplying and installing electronics
-                                        surveillance, security & IT solutions, and ELV solutions. We are proud of the agility in
-                                        international trade and business. We offer tailor-made solutions for Government
-                                        Establishments, Corporate Organizations, Offices, Buildings, Hotels, Hotel Apartments,
-                                        Shopping Malls, Hospital, & Banks, etc.
-                                       
+                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea excepturi consequuntur consectetur nisi repellat quidem, hic harum animi rem? Dolor eveniet, magnam veniam, earum minima tempora consequatur assumenda unde, reiciendis facilis nemo labore officiis et totam repudiandae ex natus enim corporis laudantium? Animi incidunt illum doloremque cum, dolore, possimus dolores tenetur suscipit iure obcaecati rem molestias, sint assumenda autem odit illo harum consequatur quae inventore praesentium tempora vero. Incidunt architecto excepturi suscipit explicabo laudantium illum assumenda! Ullam minima accusantium harum.
                                     </div>
                                 </div>
 

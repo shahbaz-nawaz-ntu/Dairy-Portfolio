@@ -7,16 +7,16 @@ import "swiper/css/navigation";
 import 'swiper/css/pagination';
 
 
-import ClientImage from '../../assets/images/resource/client.png';
-import ClientImage1 from '../../assets/images/resource/client1.png';
-import ClientImage2 from '../../assets/images/resource/client2.png';
-import ClientImage3 from '../../assets/images/resource/client3.png';
-import ClientImage4 from '../../assets/images/resource/client4.png';
-import ClientImage5 from '../../assets/images/resource/client5.png';
-import ClientImage6 from '../../assets/images/resource/client6.png';
-import ClientImage7 from '../../assets/images/resource/client7.png';
-import ClientImage8 from '../../assets/images/resource/client8.png';
-import ClientImage9 from '../../assets/images/resource/client9.png';
+import ClientImage from '../../assets/images/resource/client.jpg';
+import ClientImage1 from '../../assets/images/resource/client.jpg';
+import ClientImage2 from '../../assets/images/resource/client.jpg';
+import ClientImage3 from '../../assets/images/resource/client.jpg';
+import ClientImage4 from '../../assets/images/resource/client.jpg';
+import ClientImage5 from '../../assets/images/resource/client.jpg';
+import ClientImage6 from '../../assets/images/resource/client.jpg';
+import ClientImage7 from '../../assets/images/resource/client.jpg';
+import ClientImage8 from '../../assets/images/resource/client.jpg';
+import ClientImage9 from '../../assets/images/resource/client.jpg';
 
 const swiperOptions = {
     modules: [Autoplay, Pagination, Navigation],

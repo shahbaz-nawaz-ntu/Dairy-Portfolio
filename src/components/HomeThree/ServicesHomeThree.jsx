@@ -3,19 +3,19 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import { useEffect, useRef } from 'react';
-import icon1 from '../../assets/images/resource/png/cctv.png';
-import icon2 from '../../assets/images/resource/png/ANPR.png';
-import icon3 from '../../assets/images/resource/png/ACCESS-AGTES.png';
-import icon4 from '../../assets/images/resource/png/ATTENDANCE- MACHINES.png';
-import icon5 from '../../assets/images/resource/png/DOOR-ACCESS-CONTROLS.png';
-import icon6 from '../../assets/images/resource/png/GATE-BARRIERS.png';
-import icon7 from '../../assets/images/resource/png/INTERCOMS.png';
-import icon8 from '../../assets/images/resource/png/s1.jpeg';
-import icon9 from '../../assets/images/resource/png/LIGHT-FIXING.png';
-import icon10 from '../../assets/images/resource/png/SECURITY-ALARM.png';
-import icon11 from '../../assets/images/resource/png/SPEAKER-SYSTEMS.png';
-import icon12 from '../../assets/images/resource/png/TELEPHONES.png';
-import icon13 from "../../assets/images/resource/sidra.png";
+import icon1 from '../../assets/images/resource/png/milk.jpg';
+import icon2 from '../../assets/images/resource/png/milk1.jpg';
+import icon3 from '../../assets/images/resource/png/milk2.jpg';
+import icon4 from '../../assets/images/resource/png/milk3.jpg';
+import icon5 from '../../assets/images/resource/png/milk4.jpg';
+import icon6 from '../../assets/images/resource/png/milk5.jpg';
+import icon7 from '../../assets/images/resource/png/milk6.jpg';
+import icon8 from '../../assets/images/resource/png/milk7.jpg';
+import icon9 from '../../assets/images/resource/png/milk8.jpg';
+import icon10 from '../../assets/images/resource/png/milk9.jpg';
+import icon11 from '../../assets/images/resource/png/milk10.jpg';
+import icon12 from '../../assets/images/resource/png/milk11.jpg';
+import icon13 from "../../assets/images/resource/png/milk12.jpg";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Navigation, Pagination } from "swiper/modules";
 import "swiper/css";
@@ -73,9 +73,9 @@ function ServicesHomeThree({ className }) {
         <section className={`services-section-three ${className || ''}`} id='services'>
         <div className="auto-container">
 			<div className="sec-title text-center">	
-				<span className=" ">Expert team with years of experience and Professionalism</span>
+				<span className=" ">Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
 				<br />
-				<h2 className='sub-title fs-1 mt-3'>Services We Offer</h2>
+				<h2 className='sub-title fs-1 mt-3'>Lorem, ipsum dolor.</h2>
 			</div>
 			<div className="outer-box">
 				<div className="row justify-content-center">
@@ -83,73 +83,72 @@ function ServicesHomeThree({ className }) {
 					<div className="service-block-three col wow fadeInUp ">
 						<div className="inner-box">
 							<img src={icon1} className='icon p-10 ' alt="" />
-							<h6 className="title"><Link>AI BASED CCTV<br/> CAMERA SYSTEM</Link ></h6>
-							<div className="text">Home & Business</div>
+							<h6 className="title"><Link>Lorem, ipsum dolor.<br/> dipisicing elit</Link ></h6>
+							<div className="text">Dairy Farm</div>
 						</div>
 					</div>
 
 					<div className="service-block-three col wow fadeInUp ">
 						<div className="inner-box">
 							<img src={icon13} className='icon p-10 ' alt="" />
-							<h6 className="title"><Link>SIRA APPROVALS </Link ></h6>
-							<div className="text">NOC/ AMC <br/>
-								New or existing licenses</div>
+							<h6 className="title"><Link>Dairy Farm </Link ></h6>
+							<div className="text">NMilk / Cow<br/>
+								Lorem ipsum dolor sit.</div>
 						</div>
 					</div>
 
 					<div className="service-block-three col wow fadeInUp ">
 						<div className="inner-box">
 							<img src={icon8} className='icon p-10 ' alt="" />
-							<h6 className="title"><Link>ELV/MEP <br/> System Drawings </Link ></h6>
-							<div className="text">AutoCAD Architectural <br/>
-								drawings,SSD, SPC, SVG, Security Alarm</div>
+							<h6 className="title"><Link>Dairy <br/> Farm</Link ></h6>
+							<div className="text">Lorem, ipsum. <br/>
+								Lorem ipsum dolor sit amet.</div>
 						</div>
 					</div>
 
 					<div className="service-block-three col wow fadeInUp" data-wow-delay="200ms">
 						<div className="inner-box ">
 							<img src={icon2} className='icon p-10 ' alt="" />
-							<h6 className="title"><Link>ANPR SYSTEM</Link ></h6>
-							<div className="text">Installation & maintenance</div>
+							<h6 className="title"><Link>dairy Farm</Link ></h6>
+							<div className="text">Lorem, ipsum dolor.</div>
 						</div>
 					</div>
 
 					<div className="service-block-three col wow fadeInUp" data-wow-delay="400ms">
 						<div className="inner-box ">
 							<img src={icon3} className='icon p-10 ' alt="" />
-							<h6 className="title"><Link>ACCESS GATES <br/>SYSTEM</Link ></h6>
-							<div className="text">Turnstiles/ Parking Barriers Smart recognition system</div>
+							<h6 className="title"><Link>Dairy Farm <br/>SYSTEM</Link ></h6>
+							<div className="text">Lorem ipsum dolor sit, amet consectetur adipisicing.</div>
 						</div>
 					</div>
 
 					<div className="service-block-three col wow fadeInUp" data-wow-delay="600ms">
 						<div className="inner-box ">
 							<img src={icon4} className='icon p-10 ' alt="" />
-							<h6 className="title"><Link>ATTENDANCE <br/>MACHINES</Link ></h6>
-							<div className="text">Time attendece system biometrice/phase/cards</div>
+							<h6 className="title"><Link>airy Farm <br/>Milk</Link ></h6>
+							<div className="text">Lorem ipsum dolor sit amet.</div>
 						</div>
 					</div>
 
 					<div className="service-block-three col wow fadeInUp" data-wow-delay="800ms">
 						<div className="inner-box">
 							<img src={icon5} className='icon p-10 ' alt="" />
-							<h6 className="title"><Link>DOOR <br/>ACCESS CONTROLS </Link ></h6>
-							<div className="text">Magnetic lock/smart access</div>
+							<h6 className="title"><Link>Milk <br/>Dairy Farm </Link ></h6>
+							<div className="text">Lorem ipsum dolor sit.</div>
 						</div>
 					</div>
 					<div className="service-block-three col wow fadeInUp" data-wow-delay="800ms">
 						<div className="inner-box">
 							<img src={icon6} className='icon p-10 ' alt="" />
-							<h6 className="title"><Link>GATE <br/>BARRIERS</Link ></h6>
-							<div className="text">Smart access/Integration 
-							with car number plate recognition</div>
+							<h6 className="title"><Link>GATE <br/>Lorem.</Link ></h6>
+							<div className="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur.</div>
 						</div>
 					</div>
 					<div className="service-block-three col wow fadeInUp" data-wow-delay="800ms">
 						<div className="inner-box">
 							<img src={icon7} className='icon p-10 ' alt="" />
-							<h6 className="title"><Link>INTERCOMS <br/> DEVIECES</Link ></h6>
-							<div className="text">Audio/video/mobile access</div>
+							<h6 className="title"><Link>Lorem, ipsum. <br/> Lorem.</Link ></h6>
+							<div className="text">Lorem ipsum dolor sit.</div>
 						</div>
 					</div>
 					{/* <div className="service-block-three col wow fadeInUp" data-wow-delay="800ms">
@@ -162,29 +161,29 @@ function ServicesHomeThree({ className }) {
 					<div className="service-block-three col wow fadeInUp" data-wow-delay="800ms">
 						<div className="inner-box">
 							<img src={icon9} className='icon p-10 ' alt="" />
-							<h6 className="title"><Link>LIGHT <br/>FIXING</Link ></h6>
-							<div className="text">Shop, Office, Warehouse etc</div>
+							<h6 className="title"><Link>LIGHT <br/>Lorem.</Link ></h6>
+							<div className="text">Lorem ipsum dolor sit.</div>
 						</div>
 					</div>
 					<div className="service-block-three col wow fadeInUp" data-wow-delay="800ms">
 						<div className="inner-box">
 							<img src={icon10} className='icon p-10 ' alt="" />
-							<h6 className="title"><Link>ALARM <br/>SYSTEM</Link ></h6>
-							<div className="text">Grade 3 Integra, Sira Appoved System </div>
+							<h6 className="title"><Link>MILk <br/>Cow</Link ></h6>
+							<div className="text">Lorem ipsum dolor sit amet. </div>
 						</div>
 					</div>
 					<div className="service-block-three col wow fadeInUp" data-wow-delay="800ms">
 						<div className="inner-box">
 							<img src={icon11} className='icon p-10 ' alt="" />
-							<h6 className="title"><Link>SPEAKER <br/>SYSTEMS</Link ></h6>
-							<div className="text">Public address system</div>
+							<h6 className="title"><Link>Milk <br/>Cow</Link ></h6>
+							<div className="text">Lorem ipsum dolor sit.</div>
 						</div>
 					</div>
 					<div className="service-block-three col wow fadeInUp" data-wow-delay="800ms">
 						<div className="inner-box">
 							<img src={icon12} className='icon p-10 ' alt="" />
-							<h6 className="title"><Link>TELEPHONE <br/>SYSTEM</Link ></h6>
-							<div className="text">Ip based PABX system</div>
+							<h6 className="title"><Link>Cow  <br/> Milk</Link ></h6>
+							<div className="text">Lorem ipsum dolor sit.</div>
 						</div>
 					</div>
 					</Slider>

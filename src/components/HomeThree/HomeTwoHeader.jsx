@@ -1,14 +1,14 @@
 import React, { useEffect, useState  } from 'react';
 import { Link  } from 'react-router-dom';
-import logo1 from '../../assets/images/logo.png';
-import logo2 from '../../assets/images/logo-2.png';
+import logo1 from '../../assets/images/logo7.png';
+import logo2 from '../../assets/images/logo7.png';
 import logo4 from "../../assets/images/logo4.png"
 import logo5 from "../../assets/images/logo5.png"
 import logo3 from "../../assets/images/logo3.png"
 import StickyMenu from '../../lib/StickyMenu';
 import Navigation from '../Navigation.jsx';
 import MobileMenu from '../MobileMenu.jsx';
-import logo6 from "../../assets/images/logo6.png"
+import logo6 from "../../assets/images/logo7.png"
 
 function Header({ action, className, scroll }) {
     const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -42,16 +42,16 @@ function Header({ action, className, scroll }) {
                     <div className="inner-container ">
                         <div className="top-left">
                             <ul className="social-icon-one">
-                                <li><Link  to="https://www.facebook.com/share/1G5YY3q2tS/?mibextid=wwXIfr"><i className="fab fa-facebook"></i></Link ></li>
-                                <li><Link to="https://www.tiktok.com/@coralplus.ae?_t=ZS-8wJc6gWSPDh&_r=1"><i className="fab fa-tiktok"></i></Link></li>
-                                <li><Link to="https://g.co/kgs/p5DpJ8q"><i className="fab fa-google"></i></Link></li>
+                                <li><Link  to="#"><i className="fab fa-facebook"></i></Link ></li>
+                                <li><Link to="#"><i className="fab fa-tiktok"></i></Link></li>
+                                <li><Link to="#"><i className="fab fa-google"></i></Link></li>
                             </ul>
                         </div>
 
                         <div className="top-right">
                             <ul className="list-style-one">
-                                <li><i className="fa fa-envelope"></i> <Link  to="mailto:Sales@coralplus.ae">Sales@coralplus.ae</Link ></li>
-                                <li><i className="fa fa-map-marker"></i> Deira, Dubai, U.A.E.</li>
+                                <li><i className="fa fa-envelope"></i> <Link  to="mailto:Sales@coralplus.ae">xyz@gmail.com</Link ></li>
+                                <li><i className="fa fa-map-marker"></i> Bayswater, London, United Kingdom</li>
                             </ul>
                         </div>
                     </div>
@@ -111,7 +111,7 @@ function Header({ action, className, scroll }) {
                             <div className="contact-info-box">
                                 <i className="icon lnr-icon-phone-handset"></i>
                                 <span className="title">Call/Whatsapp Now</span>
-                                <a href="tel:+971588996975">+971588996975</a>
+                                <a href="tel:+00000000000">+00000000000</a>
                             </div>
                         </li>
                         <li>
@@ -119,7 +119,7 @@ function Header({ action, className, scroll }) {
                             <div className="contact-info-box">
                                 <span className="icon lnr-icon-envelope1"></span>
                                 <span className="title">Send Email</span>
-                                <a href="mailto:Sales@coralplus.ae">Sales@coralplus.ae</a>
+                                <a href="mailto:Sales@coralplus.ae">xyz@gmail.com</a>
                             </div>
                         </li>
                         {/* <li> */}

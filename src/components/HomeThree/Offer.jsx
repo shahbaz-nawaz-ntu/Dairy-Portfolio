@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import ModalVideo from 'react-modal-video'; 
-import Image6 from '../../assets/images/resource/benefits.jpeg'; // Adjust path to your image
+import Image6 from '../../assets/images/resource/client.jpg'; // Adjust path to your image
 
 function OfferSectionTwo() {
     const [isOpen, setOpen] = useState(false);
@@ -14,23 +14,23 @@ function OfferSectionTwo() {
                         <div className="content-column col-lg-6 col-md-12 order-2">
                             <div className="inner-column wow fadeInRight">
                                 <div className="sec-title">
-                                    <span className="sub-title">Company Benefits</span>
-                                    <h2>Always Deliver More than you Expected</h2>
+                                    <span className="sub-title">Dairy Farm Benefits</span>
+                                    <h2>Always Deliver Best Quality More than you Expected</h2>
                                 </div>
                                 <div className="info-box">
                                     <span className="count">01</span>
-                                    <h5 className="title">Security & Surveillance Systems</h5>
-                                    <div className="text">We deliver cutting-edge CCTV, ANPR, access control, intercoms, and other surveillance solutions tailored to your safety needs.</div>
+                                    <h5 className="title">Lorem ipsum dolor sit.</h5>
+                                    <div className="text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime deleniti vitae est ipsam ipsa blanditiis!.</div>
                                 </div>
                                 <div className="info-box">
                                     <span className="count">02</span>
-                                    <h5 className="title">Complete ELV & Electrical Services</h5>
-                                    <div className="text">From structured cabling to PVC/GI piping, we ensure reliable ELV and electrical installations with precise execution and expert maintenance.</div>
+                                    <h5 className="title">Lorem ipsum dolor sit amet.</h5>
+                                    <div className="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi laudantium eius sed maiores aliquid culpa consequuntur quisquam voluptatem veritatis iusto!</div>
                                 </div>
                                 <div className="info-box">
                                     <span className="count">03</span>
-                                    <h5 className="title">IT Infrastructure & Telecom Solutions</h5>
-                                    <div className="text">We provide turnkey IT systems, telephone (PABX) installations, and smart networking services built to support your organization’s growth.
+                                    <h5 className="title">Lorem ipsum dolor sit amet consectetur.</h5>
+                                    <div className="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui enim nulla corrupti illum id. Iste atque nostrum architecto. Non dolorem nihil debitis obcaecati ipsam ad?
 
 </div>
                                 </div>

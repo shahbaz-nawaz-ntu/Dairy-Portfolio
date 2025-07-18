@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link  } from 'react-router-dom';
-import BackgroundImage from '../../assets/images/background/1.jpg';
+import BackgroundImage from '../../assets/images/background/client5.jpg';
 import IconLogo from '../../assets/images/resource/icon-logo.png'; 
 function CallToActionHomeTwo({ className }) {
     return (
@@ -13,9 +13,9 @@ function CallToActionHomeTwo({ className }) {
                     <div className="icon bounce-y">
                         <img src={IconLogo} alt="Icon Logo" />
                     </div>
-                    <div className="sub-title text-warning">We’re here to secure your home and business.</div>
+                    <div className="sub-title text-warning">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui!</div>
                     <h1 className="title">
-                         Looking for the Best <br />Security & IT Solutions?
+                         Looking for the Best <br />Dairy and Milk ?
                     </h1>
                     <Link  to="/" className="theme-btn btn-style-one hvr-light">
                         <span className="btn-title">get in touch</span>

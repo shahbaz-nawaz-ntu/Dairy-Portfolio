@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import axios from "axios";
-import ContactImage from '../../assets/images/resource/contact.jpg'; 
+import ContactImage from '../../assets/images/resource/client1.jpg'; 
 import { FaWhatsapp } from "react-icons/fa";
 import { CgMail } from "react-icons/cg";
 
@@ -66,24 +66,23 @@ function ContactSectionTwo() {
           <div className="info-column col-xl-7 col-lg-6 col-md-12 col-sm-12 order-2">
             <div className="inner-column wow fadeInRight">
               <div className="sec-title">
-                <div className="sub-title">Get to know</div>
+                <div className="sub-title">Lorem, ipsum dolor.</div>
               </div>
               <figure className="image overlay-anim">
                 <img src={ContactImage} alt="Contact" />
               </figure>
               <div className="info-box">
                 <span className="icon fa fa-check"></span>
-                <h5 className="title">OUR MISSION</h5>
+                <h5 className="title">Lorem, ipsum.</h5>
                 <div className="text">
-                  To deliver the best reliable solution in IT infrastructures, security systems, ELV solutions,
-                  and help our clients to improve business efficiency.
+                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora explicabo repudiandae pariatur itaque, cupiditate iusto libero distinctio. Animi quibusdam doloribus tenetur sunt magnam perspiciatis quam.
                 </div>
               </div>
               <div className="info-box">
                 <span className="icon fa fa-check"></span>
-                <h5 className="title">OUR VISION</h5>
+                <h5 className="title">Lorem, ipsum.</h5>
                 <div className="text">
-                  To be the most valued & preferred Services provider for all our clients
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit, voluptatum!
                 </div>
               </div>
             </div>
@@ -94,8 +93,8 @@ function ContactSectionTwo() {
             <div className="inner-column">
               <div className="contact-form light wow fadeInLeft">
                 <div className="title-box">
-                  <span className="sub-title">Contact us</span>
-                  <h3>GET IN TOUCH</h3>
+                  <span className="sub-title">Lorem, ipsum.</span>
+                  <h3>Lorem ipsum dolor sit amet.</h3>
                 </div>
 
                 {status && (
