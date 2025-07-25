@@ -14,23 +14,23 @@ function OfferSectionTwo() {
                         <div className="content-column col-lg-6 col-md-12 order-2">
                             <div className="inner-column wow fadeInRight">
                                 <div className="sec-title">
-                                    <span className="sub-title">Dairy Farm Benefits</span>
-                                    <h2>Always Deliver Best Quality More than you Expected</h2>
+                                    <span className="sub-title">Nordic BioGain Benefits</span>
+                                    <h2>Always Delivering Results—Naturally.</h2>
                                 </div>
                                 <div className="info-box">
                                     <span className="count">01</span>
-                                    <h5 className="title">Lorem ipsum dolor sit.</h5>
-                                    <div className="text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime deleniti vitae est ipsam ipsa blanditiis!.</div>
+                                    <h5 className="title">Advanced Feed Additive Solutions</h5>
+                                    <div className="text">We develop science-backed nutritional products like rumen-protected nutrients, yeast additives, and trace minerals that support optimal livestock health and performance.</div>
                                 </div>
                                 <div className="info-box">
                                     <span className="count">02</span>
-                                    <h5 className="title">Lorem ipsum dolor sit amet.</h5>
-                                    <div className="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi laudantium eius sed maiores aliquid culpa consequuntur quisquam voluptatem veritatis iusto!</div>
+                                    <h5 className="title">Customized Nutrition Programs</h5>
+                                    <div className="text">From tailored vitamin-mineral premixes to phytogenic solutions and enzyme blends — our formulations are designed to match the unique needs of farmers and veterinarians.</div>
                                 </div>
                                 <div className="info-box">
                                     <span className="count">03</span>
-                                    <h5 className="title">Lorem ipsum dolor sit amet consectetur.</h5>
-                                    <div className="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui enim nulla corrupti illum id. Iste atque nostrum architecto. Non dolorem nihil debitis obcaecati ipsam ad?
+                                    <h5 className="title">Sustainable & Trusted Innovation</h5>
+                                    <div className="text">With Nordic values at our core, we focus on eco-friendly, quality-controlled production that’s trusted by farmers and recommended by experts across the globe.
 
 </div>
                                 </div>

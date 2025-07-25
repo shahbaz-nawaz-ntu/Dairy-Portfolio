@@ -16,10 +16,18 @@ function ChooseUs() {
                         <div className="content-column col-xl-6 col-lg-7 col-md-12 col-sm-12 wow fadeInLeft">
                             <div className="inner-column wow fadeInLeft">
                                 <div className="sec-title">
-                                    <span className="sub-title">Why choose our Milk?</span>
-                                    <h2>Why you Should Choose Our Dairy Farm Milk?</h2>
+                                    <span className="sub-title">Why choose our Dairy</span>
+                                    <h2>Why you Should Choose Nordic BioGain?</h2>
                                     <div className="text">
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus alias minus vero cupiditate repellat accusantium excepturi, accusamus sit dolor sapiente ducimus eaque, optio quae consectetur nemo dolores fugiat, aliquam odio laboriosam molestiae. Enim rerum nihil, nostrum, dolorum beatae perferendis in dignissimos officia, sunt suscipit ipsum. Iusto quae ipsum delectus et in at velit aspernatur, ab voluptatibus a, hic neque ullam fuga sunt blanditiis quas explicabo earum nobis. Autem, praesentium ea quos eius laborum vitae libero temporibus ex similique in est aliquid fugiat commodi facilis, assumenda cum placeat soluta perferendis ad! At ullam corporis incidunt explicabo, in sapiente natus necessitatibus reprehenderit ipsam non expedita deleniti, est sit porro facere!
+                                    Natural Nutrition. Proven Results.
+                                    Our team at Nordic BioGain has empowered livestock farmers, veterinarians, and feed distributors to improve animal health and productivity across various regions. We bring deep expertise in animal nutrition, feed additives, and biotechnology — all rooted in Nordic values of quality, purity, and sustainability.
+                                    Our clients choose us because we deliver:
+                                    Scientifically Proven Feed Additives that enhance gut health, immunity, and productivity
+                                    Customized Solutions designed to meet specific species, lifecycle stages, and farm needs
+                                    Technical Support & Farmer Training for proper usage and performance tracking
+                                    Consistent Quality & Manufacturing Standards — ISO-compliant and batch-tested
+                                    Eco-Friendly & Regulatory-Compliant Products to meet international safety and approval standards
+                                    Global Knowledge, Local Focus — we combine international research with practical, on-the-ground support.
                                         {/* We view ourselves as a vital part of each of our client’s teams and know our success
                                         hinges on them being successful. We have worked with many of our clients for years and
                                         attribute our high client retention rate to our response to their needs and consistent dedication

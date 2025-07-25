@@ -13,10 +13,17 @@ function AboutHomeThree({ className }) {
                         <div className="content-column col-xl-6 col-lg-7 col-md-12 col-sm-12 order-2 wow fadeInRight" data-wow-delay="600ms">
                             <div className="inner-column">
                                 <div className="sec-title">
-                                    <span className="sub-title">Lorem, ipsum dolor.</span>
-                                    <h2 className='fs-1'>Lorem ipsum, dolor sit | amet consectetur adipisicing  | elit. Mollitia, officiis.</h2>
+                                    <span className="sub-title">About Our Dairy</span>
+                                    <h2 className='fs-2'>Research-Driven Formulations | Quality-Controlled Manufacturing | Customized Nutrition Solutions
+                                    </h2>
                                     <div className="text">
-                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea excepturi consequuntur consectetur nisi repellat quidem, hic harum animi rem? Dolor eveniet, magnam veniam, earum minima tempora consequatur assumenda unde, reiciendis facilis nemo labore officiis et totam repudiandae ex natus enim corporis laudantium? Animi incidunt illum doloremque cum, dolore, possimus dolores tenetur suscipit iure obcaecati rem molestias, sint assumenda autem odit illo harum consequatur quae inventore praesentium tempora vero. Incidunt architecto excepturi suscipit explicabo laudantium illum assumenda! Ullam minima accusantium harum.
+                                    <b>Nordic BioGain (based in Denmark)</b> is dedicated to improving animal nutrition through innovative, science-based feed additive solutions, combining Nordic values of quality, purity, and sustainability with advanced biotechnology.
+
+                                    Their goal is to help farmers, veterinarians, and distributors by delivering consistent results such as:
+
+                                    Better gut health and immunity,
+                                    Improved performance and productivity.
+
                                     </div>
                                 </div>
 

@@ -9,8 +9,8 @@ import "swiper/css/pagination";
 
 // Importing the images
 import ArrowIcon from '../../assets/images/main-slider/arrow.png'; // Arrow icon
-import Image1 from '../../assets/images/main-slider/3.jpg'; // First image
-import Image2 from '../../assets/images/main-slider/10.jpg'; // Second image (use a different image if needed)
+import Image1 from '../../assets/images/main-slider/Home.jpg'; // First image
+import Image2 from '../../assets/images/main-slider/research.jpg'; // Second image (use a different image if needed)
 
 const swiperOptions = {
     modules: [Autoplay, Pagination, Navigation],
@@ -35,8 +35,8 @@ function BannerSectionTwo({ className }) {
                         <div className="bg-image" style={{ backgroundImage: `url(${Image1})`, filter: "blur(5px)"}}></div>
                         <div className="auto-container ">
                             <div className="content-box">
-                                <span className="animate-2 fs-5 " style={{color:'white'}}>Lorem ipsum dolor sit amet.</span>
-                                <h1 className="title animate-3" style={{color:'white'}}>Lorem ipsum dolor sit amet consectetur adipisicing.</h1>
+                                <span className="animate-2 fs-5 " style={{color:'gray'}}>Welcome to Nordic BioGain</span>
+                                <h1 className="title animate-3" style={{color:'white'}}>Enhancing Animal Health & Productivity Naturally</h1>
                                 
                                 <div className="btn-box animate-4">
                                     <a  href="#offer" className="theme-btn btn-style-one">
@@ -52,8 +52,8 @@ function BannerSectionTwo({ className }) {
                         <div className="bg-image" style={{ backgroundImage: `url(${Image2})`, filter: "blur(2px)" }}></div>
                         <div className="auto-container">
                             <div className="content-box">
-                                <span className="animate-2 fs-5 text-amber-50" style={{color:'white'}}>Lorem ipsum dolor sit amet.</span>
-                                <h1 className="title animate-3" style={{color:'white'}}>Lorem ipsum dolor, sit amet consectetur adipisicing.</h1>
+                                <span className="animate-2 fs-5 text-amber-50" style={{color:'gray'}}>Welcome to Nordic BioGain</span>
+                                <h1 className="title animate-3" style={{color:'white'}}>Enhancing Animal Health & Productivity Naturally</h1>
                                 <div className="btn-box animate-4">
                                     <a  href="#offer" className="theme-btn btn-style-one">
                                     <span className="btn-title">Discover more</span></a>  

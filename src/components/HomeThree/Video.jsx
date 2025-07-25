@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import ModalVideo from 'react-modal-video';
-import VideoThumbnail from '../../assets/images/resource/client3.jpg'; // Adjust the path as necessary
+import VideoThumbnail from '../../assets/images/resource/research.jpg'; // Adjust the path as necessary
 
 function VideoHomeTwo({ className }) {
     const [isOpen, setOpen] = useState(false);
@@ -11,10 +11,11 @@ function VideoHomeTwo({ className }) {
                 <div className="auto-container">
                     <div className="outer-box">
                         <div className="title-box text-center">
-                            <h3 className="title fs-1">Dairy Farm<br />Good Quality Milk 
-                                        More Than Your Expectations</h3>
+                            <h3 className="title fs-1">ANIMAL NUTRITION<br />LIVESTOCK HEALTH 
+                            AND SUSTAINABLE FEED SOLUTIONS
+                            </h3>
                             <div className="text">
-                                It is not just a profession; <br />it's a passion for our Dairy Farm to Give good products. We believe...
+                                It is not just a profession; <br />it’s a passion at Nordic BioGain.We truly believe in nourishing animals naturally, supporting farmers, ......
                             </div>
                         </div>
                         <div className="video-box wow fadeInUp d-flex justify-content-center">
