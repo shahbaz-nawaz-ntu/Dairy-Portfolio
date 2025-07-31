@@ -13,9 +13,10 @@ function CallToActionHomeTwo({ className }) {
                     <div className="icon bounce-y">
                         <img src={IconLogo} alt="Icon Logo" />
                     </div>
-                    <div className="sub-title text-warning">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui!</div>
+                    <div className="sub-title text-warning">We’re here to strengthen your farm and your herd.</div>
                     <h1 className="title">
-                         Looking for the Best <br />Dairy and Milk ?
+                    Looking for the Best <br />
+                    Animal Nutrition & Feed Additive Solutions?
                     </h1>
                     <Link  to="/" className="theme-btn btn-style-one hvr-light">
                         <span className="btn-title">get in touch</span>

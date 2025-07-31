@@ -20,7 +20,7 @@ function FooterHomeOne({ className }) {
                                 <div className="logo">
                                     <Link to="/"><img src={logo1} alt="Logo" /></Link >
                                 </div>
-                                <div className="text fs-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat possimus quos esse necessitatibus nihil obcaecati labore sapiente quaerat minus tempora? Quas commodi qui atque incidunt.</div>
+                                <div className="text fs-5">To deliver the most reliable and science-based animal nutrition solutions that enhance livestock health, boost farm productivity, and support sustainable growth for our clients in the dairy and livestock industry.</div>
                                 {/* <ul className="social-icon-two">
                                     <li><Link  to="#"><i className="fab fa-twitter"></i></Link ></li>
                                     <li><Link  to="#"><i className="fab fa-facebook"></i></Link ></li>

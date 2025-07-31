@@ -73,82 +73,80 @@ function ServicesHomeThree({ className }) {
         <section className={`services-section-three ${className || ''}`} id='services'>
         <div className="auto-container">
 			<div className="sec-title text-center">	
-				<span className=" ">Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
+				<span className=" ">Trusted Quality & Innovation in Animal Nutrition</span>
 				<br />
-				<h2 className='sub-title fs-1 mt-3'>Lorem, ipsum dolor.</h2>
+				<h2 className='sub-title fs-1 mt-3'>About Nordic BioGain</h2>
 			</div>
 			<div className="outer-box">
 				<div className="row justify-content-center">
 					<Slider {...settings}>
-					<div className="service-block-three col wow fadeInUp ">
+					{/* <div className="service-block-three col wow fadeInUp ">
 						<div className="inner-box">
 							<img src={icon1} className='icon p-10 ' alt="" />
-							<h6 className="title"><Link>Lorem, ipsum dolor.<br/> dipisicing elit</Link ></h6>
-							<div className="text">Dairy Farm</div>
+							<h6 className="title"><Link>NORDIC BIOGAIN</Link ></h6>
+							<div className="text">recision Nutrition for Animal Growth</div>
 						</div>
-					</div>
+					</div> */}
 
 					<div className="service-block-three col wow fadeInUp ">
 						<div className="inner-box">
 							<img src={icon13} className='icon p-10 ' alt="" />
-							<h6 className="title"><Link>Dairy Farm </Link ></h6>
-							<div className="text">NMilk / Cow<br/>
-								Lorem ipsum dolor sit.</div>
+							<h6 className="title"><Link>MAXIGAIN VM</Link ></h6>
+							<div className="text">Optimized Nutrition for Cattle</div>
 						</div>
 					</div>
 
 					<div className="service-block-three col wow fadeInUp ">
 						<div className="inner-box">
 							<img src={icon8} className='icon p-10 ' alt="" />
-							<h6 className="title"><Link>Dairy <br/> Farm</Link ></h6>
-							<div className="text">Lorem, ipsum. <br/>
-								Lorem ipsum dolor sit amet.</div>
+							<h6 className="title"><Link>NORDIC <br /> MICROMIX </Link ></h6>
+							<div className="text">Advanced Trace Mineral Supplement</div>
 						</div>
 					</div>
 
 					<div className="service-block-three col wow fadeInUp" data-wow-delay="200ms">
 						<div className="inner-box ">
 							<img src={icon2} className='icon p-10 ' alt="" />
-							<h6 className="title"><Link>dairy Farm</Link ></h6>
-							<div className="text">Lorem, ipsum dolor.</div>
+							<h6 className="title"><Link>NORDIC <br /> KETOAGUARD</Link ></h6>
+							<div className="text"> Support for Dairy Cattle Transition</div>
 						</div>
 					</div>
 
 					<div className="service-block-three col wow fadeInUp" data-wow-delay="400ms">
 						<div className="inner-box ">
 							<img src={icon3} className='icon p-10 ' alt="" />
-							<h6 className="title"><Link>Dairy Farm <br/>SYSTEM</Link ></h6>
-							<div className="text">Lorem ipsum dolor sit, amet consectetur adipisicing.</div>
+							<h6 className="title"><Link>NORDIC <br /> Vit E50</Link ></h6>
+							<div className="text">High-Potency Vitamin E for Livestock.</div>
 						</div>
 					</div>
 
 					<div className="service-block-three col wow fadeInUp" data-wow-delay="600ms">
 						<div className="inner-box ">
 							<img src={icon4} className='icon p-10 ' alt="" />
-							<h6 className="title"><Link>airy Farm <br/>Milk</Link ></h6>
-							<div className="text">Lorem ipsum dolor sit amet.</div>
+							<h6 className="title"><Link>NORDIC <br /> VITALYEAST</Link ></h6>
+							<div className="text">Boosting Rumen Health & Digestion</div>
 						</div>
 					</div>
 
 					<div className="service-block-three col wow fadeInUp" data-wow-delay="800ms">
 						<div className="inner-box">
 							<img src={icon5} className='icon p-10 ' alt="" />
-							<h6 className="title"><Link>Milk <br/>Dairy Farm </Link ></h6>
-							<div className="text">Lorem ipsum dolor sit.</div>
+							<h6 className="title"><Link>MYCONORD Y</Link ></h6>
+							<div className="text">Broad-Spectrum Mycotoxin Binder</div>
 						</div>
 					</div>
-					<div className="service-block-three col wow fadeInUp" data-wow-delay="800ms">
+					{/* <div className="service-block-three col wow fadeInUp" data-wow-delay="800ms">
 						<div className="inner-box">
 							<img src={icon6} className='icon p-10 ' alt="" />
-							<h6 className="title"><Link>GATE <br/>Lorem.</Link ></h6>
-							<div className="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur.</div>
+							<h6 className="title"><Link>NORDITOX GUARD</Link ></h6>
+							<div className="text">Selective Mycotoxin Protection</div>
 						</div>
-					</div>
+					</div> */}
 					<div className="service-block-three col wow fadeInUp" data-wow-delay="800ms">
 						<div className="inner-box">
 							<img src={icon7} className='icon p-10 ' alt="" />
-							<h6 className="title"><Link>Lorem, ipsum. <br/> Lorem.</Link ></h6>
-							<div className="text">Lorem ipsum dolor sit.</div>
+							<h6 className="title"><Link>NORDIC <br /> KETOAGUARD</Link ></h6>
+							<div className="text">Smooth Transition for Dairy Cattle</div>
 						</div>
 					</div>
 					{/* <div className="service-block-three col wow fadeInUp" data-wow-delay="800ms">
@@ -161,29 +159,29 @@ function ServicesHomeThree({ className }) {
 					<div className="service-block-three col wow fadeInUp" data-wow-delay="800ms">
 						<div className="inner-box">
 							<img src={icon9} className='icon p-10 ' alt="" />
-							<h6 className="title"><Link>LIGHT <br/>Lorem.</Link ></h6>
-							<div className="text">Lorem ipsum dolor sit.</div>
+							<h6 className="title"><Link>NORDIPHYTASE</Link ></h6>
+							<div className="text">Boost Phosphorus Utilization, Cut Feed Costs</div>
 						</div>
 					</div>
 					<div className="service-block-three col wow fadeInUp" data-wow-delay="800ms">
 						<div className="inner-box">
 							<img src={icon10} className='icon p-10 ' alt="" />
-							<h6 className="title"><Link>MILk <br/>Cow</Link ></h6>
-							<div className="text">Lorem ipsum dolor sit amet. </div>
+							<h6 className="title"><Link>PROMETH <br /> NORDIC RP </Link ></h6>
+							<div className="text">Rumen-Protected Methionine for Ruminants</div>
 						</div>
 					</div>
 					<div className="service-block-three col wow fadeInUp" data-wow-delay="800ms">
 						<div className="inner-box">
 							<img src={icon11} className='icon p-10 ' alt="" />
-							<h6 className="title"><Link>Milk <br/>Cow</Link ></h6>
-							<div className="text">Lorem ipsum dolor sit.</div>
+							<h6 className="title"><Link>NORDITOX <br /> GUARD</Link ></h6>
+							<div className="text">Smart Mycotoxin Control</div>
 						</div>
 					</div>
 					<div className="service-block-three col wow fadeInUp" data-wow-delay="800ms">
 						<div className="inner-box">
 							<img src={icon12} className='icon p-10 ' alt="" />
-							<h6 className="title"><Link>Cow  <br/> Milk</Link ></h6>
-							<div className="text">Lorem ipsum dolor sit.</div>
+							<h6 className="title"><Link>NORDIC <br /> HERDMAX</Link ></h6>
+							<div className="text">High-Performance Nutrition for Dairy Cattle</div>
 						</div>
 					</div>
 					</Slider>
