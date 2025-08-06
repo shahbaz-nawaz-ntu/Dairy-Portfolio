@@ -49,10 +49,10 @@ function FooterHomeOne({ className }) {
                             <div className="footer-widget contact-widget">
                                 <h3 className="widget-title  fs-3">Contact us</h3>
                                 <div className="widget-content">
-                                    <div className="text fs-5">Bayswater, London, United Kingdom</div>
+                                    <div className="text fs-5">Hillerødvej 37, 3400 Hillerød, Denmark</div>
                                     <ul className="contact-info">
-                                        <li><i className="fa fa-envelope"></i> <Link to="mailto:Sales@coralplus.ae">xyz@gmail.com</Link ></li>
-                                        <li><i className="fa fa-phone-square"></i> <Link to="tel:+971588996975">+000000000000</Link >
+                                        <li><i className="fa fa-envelope"></i> <Link to="mailto:Sales@coralplus.ae">Info@nodicbiogains.com</Link ></li>
+                                        <li><i className="fa fa-phone-square"></i> <Link to="tel:+971588996975">+45-65358614</Link >
                                             {/* <Link className='ml-10' to="tel:+971588838616">+971588838616</Link > */}
                                         </li>
                                     </ul>
