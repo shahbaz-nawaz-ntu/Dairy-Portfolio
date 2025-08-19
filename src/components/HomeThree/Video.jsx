@@ -15,7 +15,7 @@ function VideoHomeTwo({ className }) {
                             AND SUSTAINABLE FEED SOLUTIONS
                             </h3>
                             <div className="text">
-                                It is not just a profession; <br />it’s a passion at Nordic BioGain.We truly believe in nourishing animals naturally, supporting farmers, ......
+                                It is not just a profession; <br />it’s a passion at Nordic BioGains.We truly believe in nourishing animals naturally, supporting farmers, ......
                             </div>
                         </div>
                         <div className="video-box wow fadeInUp d-flex justify-content-center">

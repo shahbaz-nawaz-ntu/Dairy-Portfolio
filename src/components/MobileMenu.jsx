@@ -1,7 +1,7 @@
 // MobileMenu.jsx
 import { useState } from "react";
 import { Link  } from "react-router-dom"; // Ensure correct import for react-router-dom
-import PDFViewer from "./PDFViewer";
+// import PDFViewer from "./PDFViewer";
 
 const MobileMenu = () => {
     const [isActive, setIsActive] = useState({ status: false, key: "" });
@@ -99,7 +99,7 @@ const MobileMenu = () => {
            {/* <li><a href="/company-profile.pdf" download>
   Download Company Profile (PDF)
 </a></li> */}
-           <li><PDFViewer className="text-light"/></li> 
+           {/* <li><PDFViewer className="text-light"/></li>  */}
         </ul>
 
         </>

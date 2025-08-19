@@ -17,10 +17,10 @@ function ChooseUs() {
                             <div className="inner-column wow fadeInLeft">
                                 <div className="sec-title">
                                     <span className="sub-title">Why choose our Dairy</span>
-                                    <h2>Why you Should Choose Nordic BioGain?</h2>
+                                    <h2>Why you Should Choose Nordic BioGains?</h2>
                                     <div className="text">
                                     Natural Nutrition. Proven Results.
-                                    Our team at Nordic BioGain has empowered livestock farmers, veterinarians, and feed distributors to improve animal health and productivity across various regions. We bring deep expertise in animal nutrition, feed additives, and biotechnology — all rooted in Nordic values of quality, purity, and sustainability.
+                                    Our team at Nordic BioGains has empowered livestock farmers, veterinarians, and feed distributors to improve animal health and productivity across various regions. We bring deep expertise in animal nutrition, feed additives, and biotechnology — all rooted in Nordic values of quality, purity, and sustainability.
                                     Our clients choose us because we deliver:
                                     Scientifically Proven Feed Additives that enhance gut health, immunity, and productivity
                                     Customized Solutions designed to meet specific species, lifecycle stages, and farm needs

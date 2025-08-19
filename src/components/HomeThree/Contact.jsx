@@ -93,7 +93,7 @@ function ContactSectionTwo() {
             <div className="inner-column">
               <div className="contact-form light wow fadeInLeft">
                 <div className="title-box">
-                  <span className="sub-title">Contact Nordic BioGain</span>
+                  <span className="sub-title">Contact Nordic BioGains</span>
                   <h3>Get in Touch</h3>
                 </div>
 

@@ -1,5 +1,5 @@
-import React, { useEffect, useState  } from 'react';
-import { Link  } from 'react-router-dom';
+import React, { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
 import logo1 from '../../assets/images/logo7.png';
 import logo2 from '../../assets/images/logo7.png';
 import logo4 from "../../assets/images/logo4.png"
@@ -35,45 +35,45 @@ function Header({ action, className, scroll }) {
 
     return (
         <>
-        <header className={`main-header header-style-three ${className || ''}`}>
-            {/* Header Top */}
-            <div className="header-top">
-                <div className="auto-container">
-                    <div className="inner-container ">
-                        <div className="top-left">
-                            <ul className="social-icon-one">
-                                <li><Link  to="#"><i className="fab fa-facebook"></i></Link ></li>
-                                <li><Link to="#"><i className="fab fa-tiktok"></i></Link></li>
-                                <li><Link to="#"><i className="fab fa-google"></i></Link></li>
-                            </ul>
-                        </div>
+            <header className={`main-header header-style-three ${className || ''}`}>
+                {/* Header Top */}
+                <div className="header-top">
+                    <div className="auto-container">
+                        <div className="inner-container ">
+                            <div className="top-left">
+                                <ul className="social-icon-one">
+                                    <li><Link to="#"><i className="fab fa-facebook"></i></Link ></li>
+                                    <li><Link to="#"><i className="fab fa-tiktok"></i></Link></li>
+                                    <li><Link to="#"><i className="fab fa-google"></i></Link></li>
+                                </ul>
+                            </div>
 
-                        <div className="top-right">
-                            <ul className="list-style-one">
-                                <li><i className="fa fa-envelope"></i> <Link  to="mailto:Info@nodicbiogains.com">Info@nodicbiogains.com</Link ></li>
-                                <li><i className="fa fa-map-marker"></i>Hillerødvej 37, 3400 Hillerød, Denmark</li>
-                            </ul>
+                            <div className="top-right">
+                                <ul className="list-style-one">
+                                    <li><i className="fa fa-envelope"></i> <Link to="mailto:Info@nodicbiogains.com">Info@nodicbiogains.com</Link ></li>
+                                    <li><i className="fa fa-map-marker"></i>Hillerødvej 37, 3400 Hillerød, Denmark</li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            {/* End Header Top */}
+                {/* End Header Top */}
 
-            {/* Header Lower */}
-            <div className="header-lower ">
-                <div className="auto-container ">
-                    <div className="main-box ">
-                        <div className="logo-box ">
-                            <div className="logo">
-                                <Link  to="/"><img src={logo1} alt="Oitech" title="Oitech" /></Link >
+                {/* Header Lower */}
+                <div className="header-lower ">
+                    <div className="auto-container ">
+                        <div className="main-box ">
+                            <div className="logo-box ">
+                                <div className="logo">
+                                    <Link to="/"><img src={logo1} alt="Oitech" title="Oitech" /></Link >
+                                </div>
                             </div>
-                        </div>
-                        <div className="nav-outer">
-                            <nav className="nav main-menu">
-                                <Navigation />
-                            </nav>
-                        </div>
-                        {/* <div className="outer-box">
+                            <div className="nav-outer">
+                                <nav className="nav main-menu">
+                                    <Navigation />
+                                </nav>
+                            </div>
+                            {/* <div className="outer-box">
                             <div className="ui-btn-outer border-0">
                                 <button className="ui-btn ui-btn search-btn" onClick={toggleSearchPopup}>
                                     <span className="icon lnr lnr-icon-search"></span>
@@ -85,102 +85,101 @@ function Header({ action, className, scroll }) {
                             <div className="mobile-nav-toggler" onClick={toggleMobileMenu}>
                                 <span className="icon lnr-icon-bars"></span>
                             </div>
-                        {/* </div> */}
+                            {/* </div> */}
+                        </div>
                     </div>
                 </div>
-            </div>
-            {/* End Header Lower */}
+                {/* End Header Lower */}
 
-            {/* Mobile Menu */}
-            <div className={`mobile-menu ${isMobileMenuOpen ? 'open' : ''}`}>
-                <div className="menu-backdrop" onClick={closeMobileMenu} />
-                <nav className="menu-box">
-                    <div className="upper-box">
-                        <div className="nav-logo">
-                            <Link  to="/"><img src={logo6} alt="Oitech" title="Oitech" /></Link >
-                            {/* <Link className='ml-15'  to="/"><img src={logo5} alt="Oitech" /></Link > */}
-                        </div>
-                        <div className="close-btn" onClick={closeMobileMenu}>
-                            <i className="icon fa fa-times" />
-                        </div>
-                    </div>
-                    <MobileMenu />
-                    <ul className="contact-list-one">
-                        <li>
-                            {/*<!-- Contact Info Box -->*/}
-                            <div className="contact-info-box">
-                                <i className="icon lnr-icon-phone-handset"></i>
-                                <span className="title">Call/Whatsapp Now</span>
-                                <a href="tel:+45-65358614">+45-65358614</a>
+                {/* Mobile Menu */}
+                <div className={`mobile-menu ${isMobileMenuOpen ? 'open' : ''}`}>
+                    <div className="menu-backdrop" onClick={closeMobileMenu} />
+                    <nav className="menu-box">
+                        <div className="upper-box">
+                            <div className="nav-logo">
+                                <Link to="/"><img src={logo6} alt="Oitech" title="Oitech" /></Link >
+                                {/* <Link className='ml-15'  to="/"><img src={logo5} alt="Oitech" /></Link > */}
                             </div>
-                        </li>
-                        <li>
-                            {/*<!-- Contact Info Box -->*/}
-                            <div className="contact-info-box">
-                                <span className="icon lnr-icon-envelope1"></span>
-                                <span className="title">Send Email</span>
-                                <a href="mailto:Info@nodicbiogains.com">Info@nodicbiogains.com</a>
+                            <div className="close-btn" onClick={closeMobileMenu}>
+                                <i className="icon fa fa-times" />
                             </div>
-                        </li>
-                        {/* <li> */}
+                        </div>
+                        <MobileMenu />
+                        <ul className="contact-list-one">
+                            <li>
+                                {/*<!-- Contact Info Box -->*/}
+                                <div className="contact-info-box">
+                                    <i className="icon lnr-icon-phone-handset"></i>
+                                    <span className="title">Call/Whatsapp Now</span>
+                                    <a href="tel:+45-65358614">+45-65358614</a>
+                                </div>
+                            </li>
+                            <li>
+                                {/*<!-- Contact Info Box -->*/}
+                                <div className="contact-info-box">
+                                    <span className="icon lnr-icon-envelope1"></span>
+                                    <span className="title">Send Email</span>
+                                    <a href="mailto:Info@nodicbiogains.com">Info@nodicbiogains.com</a>
+                                </div>
+                            </li>
+                            {/* <li> */}
                             {/*<!-- Contact Info Box -->*/}
                             {/* <div className="contact-info-box">
                                 <span className="icon lnr-icon-clock"></span>
                                 <span className="title">Send Email</span>
                                 Mon - Sat 8:00 - 6:30, Sunday - CLOSED
                             </div> */}
-                        {/* </li> */}
-                    </ul>
-                    <ul className="social-Link d-flex justify-content-evenly">
-                        <li><Link  to="https://www.facebook.com/share/1G5YY3q2tS/?mibextid=wwXIfr"><i className="fab fa-facebook"></i></Link ></li>
-                        <li><Link to="https://www.tiktok.com/@coralplus.ae?_t=ZS-8wJc6gWSPDh&_r=1"><i className="fab fa-tiktok"></i></Link></li>
-                        <li><Link to="https://g.co/kgs/eeQgZmh"><i className="fab fa-google"></i></Link></li>
-                                                    <li><Link to="https://wa.me/971588996975"
-                                                        target="_blank"
-                                                        rel="noopener noreferrer"><i className="fab fa-whatsapp"></i>
-                                                    </Link></li>
-                    </ul>
-                </nav>
-            </div>
-            {/* End Mobile Menu */}
+                            {/* </li> */}
+                        </ul>
+                        <ul className="social-Link d-flex justify-content-evenly">
+                            <li><Link to="/"><i className="fab fa-facebook"></i></Link ></li>
+                            <li><Link to="/"><i className="fab fa-tiktok"></i></Link></li>
+                            <li><Link to="/"><i className="fab fa-google"></i></Link></li>
+                            <li><Link to="/"
+                                target="_blank"
+                                rel="noopener noreferrer"><i className="fab fa-whatsapp"></i>
+                            </Link></li>
+                        </ul>
+                    </nav>
+                </div>
+                {/* End Mobile Menu */}
 
-            {/* Sticky Header */}
-            <div className={`sticky-header ${scroll ? 'fixed-header animated slideInDown' : ''}`}>
-                <div className="auto-container">
-                    <div className="inner-container">
-                        <div className="logo">
-                            <Link  to="/"><img src={logo2} alt="Oitech" /></Link >
-                        </div>
+                {/* Sticky Header */}
+                <div className={`sticky-header ${scroll ? 'fixed-header animated slideInDown' : ''}`}>
+                    <div className="auto-container">
+                        <div className="inner-container">
+                            <div className="logo">
+                                <Link to="/"><img src={logo2} alt="Oitech" /></Link >
+                            </div>
 
-                        <div className="nav-outer">
-                            <nav className="main-menu">
-                                <div className="navbar-collapse show collapse clearfix">
-                                    <Navigation />
+                            <div className="nav-outer">
+                                <nav className="main-menu">
+                                    <div className="navbar-collapse show collapse clearfix">
+                                        <Navigation />
+                                    </div>
+                                </nav>
+
+                                <div className="mobile-nav-toggler" onClick={toggleMobileMenu}>
+                                    <span className="icon lnr-icon-bars"></span>
                                 </div>
-                            </nav>
-
-                            <div className="mobile-nav-toggler" onClick={toggleMobileMenu}>
-                                <span className="icon lnr-icon-bars"></span>
                             </div>
                         </div>
                     </div>
                 </div>
+            </header>
+            <div className={`search-popup ${isSearchPopupOpen ? 'open' : ''}`}>
+                <span className="search-back-drop" onClick={closeSearchPopup}></span>
+                <button className="close-search" onClick={closeSearchPopup}><span className="fa fa-times" ></span></button>
+                <div className="search-inner">
+                    <form method="post" action="/">
+                        <div className="form-group">
+                            <input type="search" name="search-field" placeholder="Search..." required />
+                            <button type="submit"><i className="fa fa-search"></i></button>
+                        </div>
+                    </form>
+                </div>
             </div>
-            {/* End Sticky Header */}
-        </header>
-        <div className={`search-popup ${isSearchPopupOpen ? 'open' : ''}`}>
-            <span className="search-back-drop" onClick={closeSearchPopup}></span>
-            <button className="close-search" onClick={closeSearchPopup}><span className="fa fa-times" ></span></button>
-            <div className="search-inner">
-                <form method="post" action="/">
-                    <div className="form-group">
-                        <input type="search" name="search-field" placeholder="Search..." required />
-                        <button type="submit"><i className="fa fa-search"></i></button>
-                    </div>
-                </form>
-            </div>
-        </div>
-        
+
         </>
     );
 }

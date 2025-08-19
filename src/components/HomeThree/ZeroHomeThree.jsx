@@ -35,7 +35,7 @@ function BannerSectionTwo({ className }) {
                         <div className="bg-image" style={{ backgroundImage: `url(${Image1})`, filter: "blur(5px)"}}></div>
                         <div className="auto-container ">
                             <div className="content-box">
-                                <span className="animate-2 fs-5 " style={{color:'gray'}}>Welcome to Nordic BioGain</span>
+                                <span className="animate-2 fs-5 " style={{color:'gray'}}>Welcome to Nordic BioGains</span>
                                 <h1 className="title animate-3" style={{color:'white'}}>Enhancing Animal Health & Productivity Naturally</h1>
                                 
                                 <div className="btn-box animate-4">
@@ -52,7 +52,7 @@ function BannerSectionTwo({ className }) {
                         <div className="bg-image" style={{ backgroundImage: `url(${Image2})`, filter: "blur(2px)" }}></div>
                         <div className="auto-container">
                             <div className="content-box">
-                                <span className="animate-2 fs-5 text-amber-50" style={{color:'gray'}}>Welcome to Nordic BioGain</span>
+                                <span className="animate-2 fs-5 text-amber-50" style={{color:'gray'}}>Welcome to Nordic BioGains</span>
                                 <h1 className="title animate-3" style={{color:'white'}}>Enhancing Animal Health & Productivity Naturally</h1>
                                 <div className="btn-box animate-4">
                                     <a  href="#offer" className="theme-btn btn-style-one">
