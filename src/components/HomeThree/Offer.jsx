@@ -14,7 +14,7 @@ function OfferSectionTwo() {
                         <div className="content-column col-lg-6 col-md-12 order-2">
                             <div className="inner-column wow fadeInRight">
                                 <div className="sec-title">
-                                    <span className="sub-title">Nordic BioGain Benefits</span>
+                                    <span className="sub-title">Nordic BioGains Benefits</span>
                                     <h2>Always Delivering Results—Naturally.</h2>
                                 </div>
                                 <div className="info-box">

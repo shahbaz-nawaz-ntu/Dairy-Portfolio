@@ -17,7 +17,7 @@ function AboutHomeThree({ className }) {
                                     <h2 className='fs-2'>Research-Driven Formulations | Quality-Controlled Manufacturing | Customized Nutrition Solutions
                                     </h2>
                                     <div className="text">
-                                    <b>Nordic BioGain (based in Denmark)</b> is dedicated to improving animal nutrition through innovative, science-based feed additive solutions, combining Nordic values of quality, purity, and sustainability with advanced biotechnology.
+                                    Nordic BioGains is dedicated to improving animal nutrition through innovative, science-based feed additive solutions, combining Nordic values of quality, purity, and sustainability with advanced biotechnology.
 
                                     Their goal is to help farmers, veterinarians, and distributors by delivering consistent results such as:
 
